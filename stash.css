@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #090909;
+    color: white!important;
+    font-family: "Urbanist", sans-serif;
+}
+.card {
+    border: 1px solid #181818;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: #121212;
+    color: white;
+    transition: .3s;
+}
+.pf {
+    border-radius: 100%;
+}
+.link h3 {
+    margin-top: 6px;
+    cursor: pointer;
+}
+.link {
+    cursor: pointer;
+}
+.link i {
+    transition: .3s;
+    margin-right: 12px;
+}
+.bio {
+    padding: 25px;
+}
+.bio h5 {
+    font-weight: 600;
+}
+.link:hover {
+    border: 1px solid #232323;
+    background-color: #202020;
+}
+
+@media (max-width: 768px) {
+    .link h3 {
+        margin-top: 6px;
+    }
+    .link {
+        padding: 25px!important;
+    }
+}
